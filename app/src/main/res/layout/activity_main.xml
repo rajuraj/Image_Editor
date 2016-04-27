@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:clickable="true"
+    >
+
+    <Button
+        android:id="@+id/SaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Save"
+        android:layout_gravity="center_horizontal"
+        android:textSize="10sp"
+        ></Button>
+
+    <ImageView
+        android:id="@+id/Main_imgView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        ></ImageView>
+
+    <HorizontalScrollView
+    android:id="@+id/horizontal_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+    <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true"
+            >
+               <ImageView
+                   android:id="@+id/imgView1"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:adjustViewBounds="true"
+                   android:focusable="false"
+                   ></ImageView>
+               <ImageView
+                   android:id="@+id/imgView2"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:adjustViewBounds="true"
+                   android:focusable="false"
+                   ></ImageView>
+               <ImageView
+                   android:id="@+id/imgView3"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:adjustViewBounds="true"
+                   android:focusable="false"
+                   ></ImageView>
+               <ImageView
+                   android:id="@+id/imgView4"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:adjustViewBounds="true"
+                   android:focusable="false"
+                   ></ImageView>
+               <ImageView
+                   android:id="@+id/imgView5"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:adjustViewBounds="true"
+                   android:focusable="false"
+                   ></ImageView>
+               <ImageView
+                   android:id="@+id/imgView6"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:adjustViewBounds="true"
+                   android:focusable="false"
+                   ></ImageView>
+
+               <ImageView
+                        android:id="@+id/imgView7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:focusable="false"
+                   ></ImageView>
+
+                <ImageView
+                    android:id="@+id/imgView8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:focusable="false"
+                 ></ImageView>
+
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/buttonLoadPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Load Picture"
+        android:layout_gravity="center_horizontal"
+        android:textSize="10sp"
+        ></Button>
+
+</LinearLayout>
